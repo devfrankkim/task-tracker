@@ -4,10 +4,17 @@ import DATA from "./components/data";
 import Tasks from "./components/Tasks";
 
 function App() {
+  const [tasks, setTasks] = useState(DATA);
+
+  const onDelete = (id) => {
+    setTasks(tasks.filter((datas) => datas.id !== id));
+  };
   return (
     <>
-      <Header />
-      <Tasks data={DATA} />
+      <div className="container">
+        <Header />
+        <Tasks tasks={tasks} onDelete={onDelete} />
+      </div>
     </>
   );
 }
