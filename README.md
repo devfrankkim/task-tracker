@@ -4,6 +4,7 @@
 - [x] No data > "No tasks"
 - [x] Double click > change reminder colour.
 - [x] Add feature toggle(hide).
-- [] Delete
-- [] Add
-- [] No data input > show "alert"
+- [x] Delete
+- [x] Add
+- [x] Add with reminder (data)
+- [x] No data input > show "alert"
