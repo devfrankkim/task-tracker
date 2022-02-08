@@ -9,6 +9,8 @@
 - [x] Add with reminder (data)
 - [x] No data input > show "alert"
 - [x] Install JSON Server
-- [ ] Delete - JSON server
-- [ ] ADD - JSON server
-- [ ] Toggle reminder - JSON server
+- [x] Delete - JSON server
+- [x] ADD - JSON server
+- [x] Toggle reminder - JSON server
+- [x] Add task template (open/close) -> JSON server
+- [x] Routing v5 -> v6
